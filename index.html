@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>matrix sum / subtract</title>
+</head>
+
+<body>
+    <form class="matrixInput" onsubmit="processMatrix(event); return false;">
+       <div>
+        <label for="">matrix1</label>
+        <br />
+        <input type="number" required id="m100">
+        <input type="number" required id="m101">
+        <input type="number" required id="m102">
+
+        <br />
+
+        <input type="number" required id="m110">
+        <input type="number" required id="m111">
+        <input type="number" required id="m112">
+
+        <br />
+
+        <input type="number" required id="m120">
+        <input type="number" required id="m121">
+        <input type="number" required id="m122">
+        </div>
+        <div>
+        <label for="">Matrix2</label>
+        <br />
+        
+        <input type="number" required id="m200">
+        <input type="number" required id="m201">
+        <input type="number" required id="m202">
+
+        <br />
+
+        <input type="number" required id="m210">
+        <input type="number" required id="m211">
+        <input type="number" required id="m212">
+
+        <br />
+        <div></div>
+        <input type="number" required id="m220">
+        <input type="number" required id="m221">
+        <input type="number" required id="m222">
+        <br />
+       </div>
+        <div>
+        <button>sum</button>
+        <button>subtract</button>
+      
+    </div>
+    </form>
+    <div class="result">
+    <label for="">result</label>
+    <br />
+    
+        <input type="number" disabled required id="r00">
+        <input type="number" disabled required id="r01">
+        <input type="number" disabled required id="r02">
+        <br />
+        
+        
+        <input type="number" disabled required id="r10">
+        <input type="number" disabled required id="r11">
+        <input type="number" disabled required id="r12">
+
+        <br />
+
+       
+        <input type="number" disabled required id="r20">
+        <input type="number" disabled required id="r21">
+        <input type="number" disabled required id="r22">
+    </div>
+    </div>
+    <script src="index.js">
+              
+    </script>
+</body>
+
+</html>
